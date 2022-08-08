@@ -1,0 +1,33 @@
+.logo-wrapper, .logo {
+    display: flex;
+    align-items: center;
+    width: auto;
+    float: left;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    weight: 800px;
+    border: 1px; color: #000;
+    border-style: double;
+    background-color: lightpink;
+    text-align: center;
+}
+
+.p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a /* Liens par défaut (non survolés) */{
+   text-decoration: none;
+   color: white;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */ {
+   text-decoration: underline;
+   color: black;
+}
